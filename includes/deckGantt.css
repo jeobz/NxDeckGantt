@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+.bar-red .bar {
+fill:#dd4848;
+}
+.bar-red .bar-progress {
+fill:#e66565;
+}
+.bar-blue .bar {
+fill:#1e4e7d;
+}
+.bar-blue .bar-progress {
+fill: #3f6284;
+}
+.bar-green .bar {
+fill:#649555;
+}
+.bar-green .bar-progress {
+fill: #84b475;
+}
+.gantt .bar-label {
+    font-weight: bold;
+}
+
+.board_view_title {
+    background-color: #3f6284;
+    color: white;
+    padding:5px;
+    text-align: center;
+}
+.board-link {
+  cursor: pointer;
+}
+.board-link:hover {
+    background-color: #75abe0;
+    color: white;
+}
+#board_error {
+    color:red;
+    font-weight: bold;
+    margin: 50px auto;
+    width:500px;
+    text-align: center;
+}
+#board_view {
+    width: 500px;
+    border: 1px solid lightgray;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    min-height: 100px;
+}
+
+#board_config {
+    display:flex;
+    justify-content: space-around;
+}
+#board_connexion {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3f6284;
+    color: #fff;
+    padding: 5px;
+}
+#board_list {
+    text-align: center;
+    line-height: 30px;
+}
+

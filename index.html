@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+  <title>Deck Gantt Beta</title>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Deck Gantt web interface demo">
+  <meta name="keywords" content="Nextcloud, Deck, Gantt, Frappe, JavaScript">
+  <meta name="author" content="jeobz">
+
+
+  <link type="text/css" rel="stylesheet" href="includes/frappe-gantt.css">
+  <link type="text/css" rel="stylesheet" href="includes/deckGantt.css">
+</head>
+
+<body>
+
+  <div id="board_connexion">
+
+      <div id="bord_title"> Deck Gantt <br> Beta </div>
+      <div>
+          <label>Api url : </label>
+          <input style="width: 500px;" id='api_url'></input>
+      </div>
+
+      <div>
+          <label>Login : </label>
+          <input id='login'></input>
+      </div>
+
+      <div>
+          <label>Password : </label>
+          <input type="password" id='password'></input>
+      </div>
+
+      <div>
+          <button id='api_connexion' onclick='connectToApi()'> Connect </button>
+      </div>
+
+  </div>
+
+
+  <div id="board_view">
+    <div class="board_view_title"> Tableau(x) disponible(s) </div>
+    <div id="board_list"></div>
+  </div>
+
+  <div id="board_error"></div>
+  <svg id="gantt"></svg>
+
+</body>
+
+<script src="includes/frappe-gantt.js"></script>
+<script src="includes/deckGantt.js"></script>
+
+<script>
+
+  window.addEventListener("load", function(){
+  // nothing for the moment
+  });
+
+</script>
+
+</html>
