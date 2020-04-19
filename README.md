@@ -1,7 +1,9 @@
 # deckGantt
-Simple web interface using FrappeGantt to show deck board cards in gantt format 
+Simple web interface using FrappeGantt to show Nextcloud Deck Board cards in gantt format 
 
 Thanks to : 
+
+https://github.com/nextcloud/deck
 
 https://github.com/frappe/gantt
 
