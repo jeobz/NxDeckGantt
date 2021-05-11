@@ -21,7 +21,7 @@ function sendRequest(method,url,params=null,reload=false, callbackSuccess=null,c
 
     xhr.open(method, url, true);
 
-    let credentials= window.btoa(login+':'+password);
+    let credentials= window.btoa(login+':'+unescape(encodeURIComponent(password)));
 
     xhr.setRequestHeader("Authorization","Basic "+credentials);
     xhr.setRequestHeader("Content-Type", "application/json");
